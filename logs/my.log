@@ -1,0 +1,77 @@
+2019-07-29 00:06:12.723  INFO 11732 --- [Thread-16] ConfigServletWebServerApplicationContext : Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@5c909414: startup date [Sun Jul 28 23:52:58 CST 2019]; root of context hierarchy
+2019-07-29 00:06:12.772  INFO 11732 --- [Thread-16] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2019-07-29 00:06:12.773  INFO 11732 --- [Thread-16] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans
+2019-07-29 00:06:12.775  INFO 11732 --- [Thread-16] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-07-29 00:06:12.778  INFO 11732 --- [Thread-16] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed drop of schema as part of SessionFactory shut-down'
+2019-07-29 00:06:12.780 DEBUG 11732 --- [Thread-16] org.hibernate.SQL                        : drop table user if exists
+2019-07-29 00:06:12.789  INFO 11732 --- [Thread-16] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2019-07-29 00:06:12.792  INFO 11732 --- [Thread-16] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2019-07-29 00:06:20.382  INFO 11776 --- [main] com.example.h2JPA.H2JpaApplication       : Starting H2JpaApplication on localhost with PID 11776 (/Users/syl/project/h2JPA/target/classes started by syl in /Users/syl/project/h2JPA)
+2019-07-29 00:06:20.387  INFO 11776 --- [main] com.example.h2JPA.H2JpaApplication       : The following profiles are active: dev
+2019-07-29 00:06:20.505  INFO 11776 --- [main] ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@5c909414: startup date [Mon Jul 29 00:06:20 CST 2019]; root of context hierarchy
+2019-07-29 00:06:22.165  INFO 11776 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$535d6690] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-29 00:06:22.475  INFO 11776 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-07-29 00:06:22.495  INFO 11776 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-07-29 00:06:22.495  INFO 11776 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.28
+2019-07-29 00:06:22.499  INFO 11776 --- [localhost-startStop-1] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/syl/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2019-07-29 00:06:22.633  INFO 11776 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-07-29 00:06:22.634  INFO 11776 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2129 ms
+2019-07-29 00:06:22.796  INFO 11776 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2019-07-29 00:06:22.797  INFO 11776 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Servlet webServlet mapped to [/h2-console/*]
+2019-07-29 00:06:22.800  INFO 11776 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-07-29 00:06:22.800  INFO 11776 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-07-29 00:06:22.801  INFO 11776 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-07-29 00:06:22.801  INFO 11776 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2019-07-29 00:06:22.933  INFO 11776 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-07-29 00:06:23.037  INFO 11776 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-07-29 00:06:23.112  INFO 11776 --- [main] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2019-07-29 00:06:23.124  INFO 11776 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-07-29 00:06:23.186  INFO 11776 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.2.14.Final}
+2019-07-29 00:06:23.187  INFO 11776 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-07-29 00:06:23.394  INFO 11776 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-07-29 00:06:23.509  INFO 11776 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2019-07-29 00:06:23.928 DEBUG 11776 --- [main] org.hibernate.SQL                        : drop table user if exists
+2019-07-29 00:06:23.933 DEBUG 11776 --- [main] org.hibernate.SQL                        : create table user (id bigint generated by default as identity, date_of_birth date not null, first_name varchar(255) not null, id_card varchar(255) not null, last_name varchar(255) not null, primary key (id))
+2019-07-29 00:06:23.941  INFO 11776 --- [main] o.h.t.schema.internal.SchemaCreatorImpl  : HHH000476: Executing import script 'ScriptSourceInputFromUrl(file:/Users/syl/project/h2JPA/target/classes/import.sql)'
+2019-07-29 00:06:23.943 DEBUG 11776 --- [main] org.hibernate.SQL                        : INSERT INTO USER (FIRST_NAME, LAST_NAME, ID_CARD, DATE_OF_BIRTH) values ('Steven1', 'Jobs1','630121199206081105', '1998-07-13')
+2019-07-29 00:06:23.947 DEBUG 11776 --- [main] org.hibernate.SQL                        : INSERT INTO USER (FIRST_NAME, LAST_NAME, ID_CARD, DATE_OF_BIRTH) values ('Steven2', 'Jobs2','510181199412105672', '1992-07-13')
+2019-07-29 00:06:23.947 DEBUG 11776 --- [main] org.hibernate.SQL                        : INSERT INTO USER (FIRST_NAME, LAST_NAME, ID_CARD, DATE_OF_BIRTH) values ('Steven3', 'Jobs','610702199009261457', '1991-07-13')
+2019-07-29 00:06:23.947 DEBUG 11776 --- [main] org.hibernate.SQL                        : INSERT INTO USER (FIRST_NAME, LAST_NAME, ID_CARD, DATE_OF_BIRTH) values ('Steven4', 'Jobs','430426198801075355', '1994-07-13')
+2019-07-29 00:06:23.948 DEBUG 11776 --- [main] org.hibernate.SQL                        : INSERT INTO USER (FIRST_NAME, LAST_NAME, ID_CARD, DATE_OF_BIRTH) values ('Steven5', 'Michael','420117199502232760', '1998-07-13')
+2019-07-29 00:06:23.949 DEBUG 11776 --- [main] org.hibernate.SQL                        : INSERT INTO USER (FIRST_NAME, LAST_NAME, ID_CARD, DATE_OF_BIRTH) values ('Steven6', 'Michael','130203199404122670', '1998-07-13')
+2019-07-29 00:06:23.949 DEBUG 11776 --- [main] org.hibernate.SQL                        : INSERT INTO USER (FIRST_NAME, LAST_NAME, ID_CARD, DATE_OF_BIRTH) values ('Steven7', 'Michael','430703197612014630', '1998-07-13')
+2019-07-29 00:06:23.950 DEBUG 11776 --- [main] org.hibernate.SQL                        : INSERT INTO USER (FIRST_NAME, LAST_NAME, ID_CARD, DATE_OF_BIRTH) values ('Steven8', 'Michael','350124197805280264', '1998-07-13')
+2019-07-29 00:06:23.950 DEBUG 11776 --- [main] org.hibernate.SQL                        : INSERT INTO USER (FIRST_NAME, LAST_NAME, ID_CARD, DATE_OF_BIRTH) values ('Steven9', 'Michael','500230197205314628', '1998-08-19')
+2019-07-29 00:06:23.954  INFO 11776 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-07-29 00:06:24.369  INFO 11776 --- [main] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2019-07-29 00:06:24.969  INFO 11776 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@5c909414: startup date [Mon Jul 29 00:06:20 CST 2019]; root of context hierarchy
+2019-07-29 00:06:25.034  INFO 11776 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/saveUser/{firstName}/{lastName}/{idCard}/{date}],methods=[GET]}" onto public com.example.h2JPA.domain.User com.example.h2JPA.controller.UserController.saveUser(java.lang.String,java.lang.String,java.lang.String,java.time.LocalDate)
+2019-07-29 00:06:25.035  INFO 11776 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/findByAndSort/{lastName}],methods=[GET]}" onto public java.util.List<com.example.h2JPA.domain.User> com.example.h2JPA.controller.UserController.findByAndSort(java.lang.String)
+2019-07-29 00:06:25.036  INFO 11776 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/findByIdCard/{idCard}],methods=[GET]}" onto public com.example.h2JPA.domain.User com.example.h2JPA.controller.UserController.findByIdCard(java.lang.String)
+2019-07-29 00:06:25.036  INFO 11776 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/findByIdCard2/{idCard}],methods=[GET]}" onto public com.example.h2JPA.domain.User com.example.h2JPA.controller.UserController.findByIdCard2(java.lang.String)
+2019-07-29 00:06:25.037  INFO 11776 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/findByIdCard3/{idCard}],methods=[GET]}" onto public com.example.h2JPA.domain.User com.example.h2JPA.controller.UserController.findByIdCard3(java.lang.String)
+2019-07-29 00:06:25.037  INFO 11776 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/findByLastNameWithPageable/{lastName}],methods=[GET]}" onto public org.springframework.data.domain.Page<com.example.h2JPA.domain.User> com.example.h2JPA.controller.UserController.findByLastNameWithPageable(java.lang.String)
+2019-07-29 00:06:25.037  INFO 11776 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/findByFirstNameOrLastName/{firstName}/{lastName}],methods=[GET]}" onto public java.util.List<com.example.h2JPA.domain.User> com.example.h2JPA.controller.UserController.findByFirstNameOrLastName(java.lang.String,java.lang.String)
+2019-07-29 00:06:25.038  INFO 11776 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/findByDateOfBirth/{date}],methods=[GET]}" onto public java.util.List<com.example.h2JPA.domain.User> com.example.h2JPA.controller.UserController.findByDateOfBirth(java.time.LocalDate)
+2019-07-29 00:06:25.038  INFO 11776 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/updateUser/{firstName}/{idCard}],methods=[GET]}" onto public int com.example.h2JPA.controller.UserController.updateUser(java.lang.String,java.lang.String)
+2019-07-29 00:06:25.039  INFO 11776 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/deleteByIdCard/{idCard}],methods=[GET]}" onto public java.lang.String com.example.h2JPA.controller.UserController.deleteByIdCard(java.lang.String)
+2019-07-29 00:06:25.039  INFO 11776 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/deleteByIdCard2/{idCard}],methods=[GET]}" onto public java.lang.String com.example.h2JPA.controller.UserController.deleteByIdCard2(java.lang.String)
+2019-07-29 00:06:25.040  INFO 11776 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/findAll],methods=[GET]}" onto public java.util.List<com.example.h2JPA.domain.User> com.example.h2JPA.controller.UserController.findAll()
+2019-07-29 00:06:25.040  INFO 11776 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/deleteById/{id}],methods=[GET]}" onto public java.lang.String com.example.h2JPA.controller.UserController.deleteById(java.lang.Long)
+2019-07-29 00:06:25.045  INFO 11776 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-07-29 00:06:25.046  INFO 11776 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-07-29 00:06:25.085  INFO 11776 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-07-29 00:06:25.085  INFO 11776 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-07-29 00:06:25.123  INFO 11776 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-07-29 00:06:25.388  INFO 11776 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2019-07-29 00:06:25.390  INFO 11776 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'dataSource' has been autodetected for JMX exposure
+2019-07-29 00:06:25.398  INFO 11776 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2019-07-29 00:06:25.449  INFO 11776 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-07-29 00:06:25.453  INFO 11776 --- [main] com.example.h2JPA.H2JpaApplication       : Started H2JpaApplication in 5.873 seconds (JVM running for 6.993)
+2019-07-29 00:06:44.539  INFO 11776 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2019-07-29 00:06:44.540  INFO 11776 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2019-07-29 00:06:44.562  INFO 11776 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 21 ms
+2019-07-29 00:06:44.646 DEBUG 11776 --- [http-nio-8080-exec-1] org.hibernate.SQL                        : select user0_.id as id1_0_, user0_.date_of_birth as date_of_2_0_, user0_.first_name as first_na3_0_, user0_.id_card as id_card4_0_, user0_.last_name as last_nam5_0_ from user user0_ order by user0_.id asc
+2019-07-29 00:06:45.310 DEBUG 11776 --- [http-nio-8080-exec-3] org.hibernate.SQL                        : select user0_.id as id1_0_, user0_.date_of_birth as date_of_2_0_, user0_.first_name as first_na3_0_, user0_.id_card as id_card4_0_, user0_.last_name as last_nam5_0_ from user user0_ order by user0_.id asc
